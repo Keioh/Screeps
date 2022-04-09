@@ -1,14 +1,14 @@
-#ScreepsでC/C++を使う
+# ScreepsでC/C++を使う
 C++しかできん。
 
-#必須
-*[CPPREEPS](https://github.com/screepers/cppreeps)
-*[emscripten](https://emscripten.org/docs/api_reference/bind.h.html)
+# 必須
+* [CPPREEPS](https://github.com/screepers/cppreeps)
+* [emscripten](https://emscripten.org/docs/api_reference/bind.h.html)
 
 CPPREEPSはScreepsAPIをC++で使える様にするheaderファイルとローダー。
 emscriptenはC++をWebAssemblyとJavaScriptに変換する。
 
-#手順
+# 手順
 1.適当な空のプロジェクトにCPPREEPSのincludeフォルダを追加する。
 2.CPPREEPSのsrcフォルダをコピーして空のプロジェクトに追加する。
 3.loop.cppに処理を追加、記述をする。
